@@ -41,7 +41,8 @@ def main():
 	signature = data[:8]
 	if signature == "\x89\x50\x4e\x47\x0d\x0a\x1a\x0a":
 		chunk =  parse(data)
-	
+	else:
+		exit()
 	count = 1
 	IHDR = chunk[0]
 	IEND = chunk[-1]
