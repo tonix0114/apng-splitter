@@ -2,7 +2,7 @@
 
 > "PNG를 확장한 이미지 파일 포맷으로 GIF와 같이 animation을 지원해준다. (24bit image , 8bit transparency)"
 
-- APNG의 __첫번째 프레임__은 기존의 PNG Stream이기 때문에 PNG만 지원할 경우 첫번째 프레임만 보여주게 된다.
+- APNG의 __첫번째 프레임__은 기존의 PNG Stream이기 때문에 뷰어 프로그램이 PNG만 지원할 경우 첫번째 프레임만 보여주게 된다.
 
 - 프레임의 속성값은 extra chunk에 저장되어 있다.
 
